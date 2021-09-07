@@ -1,10 +1,11 @@
 """Repeating a beat in a loop."""
 __author__ = "730309987"
-beat: str = input("What beat do you want to repeat? ")
 times: int = 0
+beat: str = input("What beat do you want to repeat? ") 
 maximum: int = int(input("How many times do you want to repeat it? "))
 while times < maximum:
-    print(beat) 
-    times = times + 1 
+    repeat: str = (beat + " ") * (maximum -1)
+    print(beat + " " + repeat) 
+    break
 if maximum < 1: 
     print("No beat...")
