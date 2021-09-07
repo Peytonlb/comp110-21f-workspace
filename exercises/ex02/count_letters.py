@@ -8,4 +8,4 @@ while (count < len(word)):
     if(word[count] == letter):
         index = index + 1
     count = count + 1
-print("Count: ",index)
+print("Count:",index)
