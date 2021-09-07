@@ -13,14 +13,14 @@ import random
 print("Your fortune cookie says...")
 fortune: int = (random.randint(1, 5))
 if fortune == 1:
-        print("Good fortune is coming your way.")
+    print("Good fortune is coming your way.")
 else:
-        if fortune == 2:
-            print("All things are difficult before they are easy.")
+    if fortune == 2:
+        print("All things are difficult before they are easy.")
+    else:
+        if fortune == 3:
+            print("Someone beautiful is coming into your life soon.")
         else:
-            if fortune == 3:
-                print("Someone beautiful is coming into your life soon.")
-            else:
-                if fortune == 4:
-                    print("Laugh loud, long, and often.")
+            if fortune == 4:
+                print("Laugh loud, long, and often.")
 print("Now, go spread positive vibes!")
